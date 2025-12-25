@@ -1,0 +1,4247 @@
+@media (min-width: 270px) and (max-width: 314px){/*tamamlandı*/ 
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    /* navbar */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        padding: 0;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand img{
+        width: 110px;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+        width: 150px;
+        
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 0;
+        padding-right: 15px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 1px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        /* background: url('../img/bonsai.jpg'); */
+        background-position: center;
+        /* background-color: #7A7A7A; */
+        height: 400px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        
+    
+    }
+    #showcase h2{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+        color: antiquewhite;
+    }
+    button {
+       
+        font-size: 12px;
+        font-weight: bolder;
+        cursor: pointer;
+        padding: 1px 8px 1px 6px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 25px;
+        position: absolute;
+        border: 0;
+        
+    }
+    
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height: 400px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 img {
+        display: inline-block;
+        margin: auto;
+        
+    }
+    .col-2 {
+        display: inline-block;
+        height: 710px; 
+        width: 100%;
+        font-size: large;
+        padding: 10px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    .row{
+        height: 1400px;
+        
+        
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        text-align: center;
+        
+    }
+    
+    .col-4 img{
+        width: 200px;
+        height: 300px;
+        margin-top: 30px;
+        
+    
+    }
+    #yazi{
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        
+    }
+    
+    .tanim {
+        margin-top: 50px;
+        width: 100%;
+        height: 1750px;
+        text-align: center;
+        display: block;
+       
+         background-color: rgba(131, 235, 235, 0.2);
+        
+    
+    }
+    
+    #text {
+        display: inline-block;
+        position: relative;
+        
+        margin-top: 20px;
+        padding: 10px;
+        width: 80%;
+        
+    }
+    .text 
+    #a1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    #a2{
+        padding-top: 30px;
+       
+    }
+    .col{
+        
+        display: inline-block;
+        padding: 10px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+        width: 80%;
+        text-align: center;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 600px;
+        margin-top: 2px;
+        
+        
+        
+    }
+    .kisiler {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        height: 200px;
+        vertical-align: bottom;
+    }
+    .kisiler{
+        
+        margin-top: 20px;
+    }
+    .ekip__text{
+        display: block;
+        
+        
+    }
+    .ekip__text{
+        text-align: left;
+        vertical-align: top;
+        font-weight: bolder;
+        font-size: 30px;
+        /* display: inline-block; */
+        height: 150px;
+        margin-left: 50px;
+        
+    }
+    .res {
+        display: inline-block;
+        width: 35%;
+        height: 200px;
+        padding-left: 150px;
+        padding: 10px;
+        font-size: small;
+        vertical-align: top;
+        
+    
+    }
+    
+    .res img{
+        width: 80px;
+        height: 110px;
+        vertical-align: top;
+        
+    }
+    .son{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 10px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 280px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .kayar img{
+        width: 23%;
+        height: 100px;
+        padding: 3px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin-top: 30px;
+        transition: box-shadow .2s;
+        display: inline-block;
+    
+      }
+      #bou{
+          width: 45%;
+      }
+      
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height:150px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          font-size: 15px;
+          margin: 0;
+          margin-left: 3%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 5px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top:30px;
+        margin-left: 6%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 15px;
+        padding: 4px;
+        border-radius: 15px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    
+    .kapsam1 {
+        
+        width: 50%;
+        
+        padding: 0;
+        margin: 0;
+        margin: auto;
+       
+    }
+    .kapsam2{
+        
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+        
+        
+        
+    }
+    
+     
+      .lines {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        margin-left: 15px;
+        
+        margin: auto;
+        width: 50%;
+      }
+      #bsl {
+          font-size: 50px;
+          margin: 0;
+        padding-top: 30px;
+        
+      }
+      .line {
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+      }
+      .kısım2 {
+          margin: 0;
+      }
+      .location {
+        display: none;
+    }
+      .ikinci {
+          display: none;
+            
+      }
+      .üçüncü{
+          display: none;
+      }
+      .dördüncü {
+        display: inline-block;
+        text-align: center ;
+        box-shadow: 3px gray;
+        padding: 20px;
+        background-color: #fff;
+         box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+            margin: 0;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+}
+@media (min-width: 315px) and (max-width: 354px){/*tamamlandı*/ 
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    /* navbar */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        padding: 0 0rem;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand img{
+        width: 130px;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+        
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 1rem 1rem;
+        margin: 0 .5px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 2.5px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        /* background: url('../img/bonsai.jpg'); */
+        background-position: center;
+        /* background-color: #7A7A7A; */
+        height: 400px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        
+    
+    }
+    #showcase h2{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+        color: antiquewhite;
+    }
+    button {
+       
+        font-size: 12px;
+        font-weight: bolder;
+        cursor: pointer;
+        padding: 1px 11px 0px 2px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 10px;
+        position: absolute;
+        vertical-align: text-top;
+        border: 0;
+        
+    }
+    
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height: 400px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 img {
+        display: inline-block;
+        margin: auto;
+        
+    }
+    .col-2 {
+        display: inline-block;
+        height: 710px; 
+        width: 100%;
+        font-size: large;
+        padding: 10px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    .row{
+        height: 1200px;
+        
+        
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        text-align: center;
+        
+    }
+    
+    .col-4 img{
+        width: 200px;
+        height: 300px;
+        margin-top: 30px;
+        
+    
+    }
+    #yazi{
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        
+    }
+    
+    .tanim {
+        margin-top: 50px;
+        width: 100%;
+        height: 1650px;
+        text-align: center;
+        display: block;
+       
+         background-color: rgba(131, 235, 235, 0.2);
+        
+    
+    }
+    
+    #text {
+        display: inline-block;
+        position: relative;
+        
+        margin-top: 20px;
+        padding: 10px;
+        width: 80%;
+        
+    }
+    .text 
+    #a1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    #a2{
+        padding-top: 30px;
+       
+    }
+    .col{
+        
+        display: inline-block;
+        padding: 10px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+        width: 80%;
+        text-align: center;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 600px;
+        margin-top: 2px;
+        
+        
+        
+    }
+    .kisiler {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        height: 200px;
+        vertical-align: bottom;
+    }
+    .kisiler{
+        
+        margin-top: 20px;
+    }
+    .ekip__text{
+        display: block;
+        
+        
+    }
+    .ekip__text{
+        text-align: left;
+        vertical-align: top;
+        font-weight: bolder;
+        font-size: 30px;
+        /* display: inline-block; */
+        height: 150px;
+        margin-left: 50px;
+        
+    }
+    .res {
+        display: inline-block;
+        width: 35%;
+        height: 200px;
+        padding-left: 150px;
+        padding: 10px;
+        font-size: small;
+        vertical-align: top;
+        
+    
+    }
+    
+    .res img{
+        width: 97px;
+        height: 113px;
+        vertical-align: top;
+        
+    }
+    .son{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 10px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 280px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .kayar img{
+        width: 23%;
+        height: 100px;
+        padding: 3px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin-top: 30px;
+        transition: box-shadow .2s;
+        display: inline-block;
+    
+      }
+      #bou{
+          width: 45%;
+      }
+      
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height:150px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          font-size: 15px;
+          margin: 0;
+          margin-left: 3%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 5px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top:30px;
+        margin-left: 6%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 15px;
+        padding: 4px;
+        border-radius: 15px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    
+    .kapsam1 {
+        
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin: auto;
+       
+    }
+    .kapsam2{
+        
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+        
+        
+        
+    }
+    
+     
+      .lines {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+        text-align: center;
+        margin: auto;
+      }
+      #bsl {
+          font-size: 50px;
+          margin: 0;
+        padding-top: 30px;
+        
+      }
+      .line {
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+        text-align: center;
+      }
+      .kısım2 {
+          margin: 0;
+      }
+      .location {
+        display: none;
+    }
+      .ikinci {
+          display: none;
+            
+      }
+      .üçüncü{
+          display: none;
+      }
+      .dördüncü {
+        display: inline-block;
+        text-align: center ;
+        box-shadow: 3px gray;
+        padding: 20px;
+        background-color: #fff;
+         box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+            margin: 0;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+}
+@media (min-width: 355px) and (max-width: 400px){/*tamamlandı*/ 
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    /* navbar */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        padding: 0 0rem;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand img{
+        width: 130px;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+        
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 1rem 1rem;
+        margin: 0 .5px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 2.5px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        /* background: url('../img/bonsai.jpg'); */
+        background-position: center;
+        /* background-color: #7A7A7A; */
+        height: 400px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        
+    
+    }
+    #showcase h2{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+        color: antiquewhite;
+    }
+    button {
+       
+        font-size: 12px;
+        font-weight: bolder;
+        cursor: pointer;
+        padding: 3px 35px 3px 20px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 25px;
+        position: absolute;
+        border: 0;
+        
+    }
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height: 400px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 img {
+        display: inline-block;
+        margin: auto;
+        
+    }
+    .col-2 {
+        display: inline-block;
+        height: 710px; 
+        width: 100%;
+        font-size: large;
+        padding: 10px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    .row{
+        height: 1100px;
+        
+        
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        text-align: center;
+        
+    }
+    
+    .col-4 img{
+        width: 200px;
+        height: 300px;
+        margin-top: 30px;
+        
+    
+    }
+    #yazi{
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        
+    }
+    
+    .tanim {
+        margin-top: 50px;
+        width: 100%;
+        height: 1550px;
+        text-align: center;
+        display: block;
+       
+         background-color: rgba(131, 235, 235, 0.2);
+        
+    
+    }
+    
+    #text {
+        display: inline-block;
+        position: relative;
+        
+        margin-top: 20px;
+        padding: 10px;
+        width: 80%;
+        
+    }
+    .text 
+    #a1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    #a2{
+        padding-top: 30px;
+       
+    }
+    .col{
+        
+        display: inline-block;
+        padding: 10px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+        width: 80%;
+        text-align: center;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 600px;
+        margin-top: 2px;
+        
+        
+        
+    }
+    .kisiler {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        height: 200px;
+        vertical-align: bottom;
+    }
+    .kisiler{
+        
+        margin-top: 20px;
+    }
+    .ekip__text{
+        display: block;
+        
+        
+    }
+    .ekip__text{
+        text-align: left;
+        vertical-align: top;
+        font-weight: bolder;
+        font-size: 30px;
+        /* display: inline-block; */
+        height: 150px;
+        margin-left: 50px;
+        
+    }
+    .res {
+        display: inline-block;
+        width: 35%;
+        height: 200px;
+        padding-left: 150px;
+        padding: 10px;
+        font-size: medium;
+        vertical-align: top;
+        
+    
+    }
+    
+    .res img{
+        width: 110px;
+        height: 130px;
+        vertical-align: top;
+        
+    }
+    .son{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 10px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 280px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .kayar img{
+        width: 23%;
+        height: 100px;
+        padding: 3px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin-top: 30px;
+        transition: box-shadow .2s;
+        display: inline-block;
+    
+      }
+      #bou{
+          width: 45%;
+      }
+      
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height:150px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          font-size: 15px;
+          margin: 0;
+          margin-left: 3%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 5px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top:30px;
+        margin-left: 6%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 15px;
+        padding: 4px;
+        border-radius: 15px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    
+    .kapsam1 {
+        
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin: auto;
+       
+    }
+    .kapsam2{
+        
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+        
+        
+        
+    }
+    
+     
+      .lines {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+        text-align: center;
+        margin: auto;
+      }
+      #bsl {
+          font-size: 50px;
+          margin: 0;
+        padding-top: 30px;
+        
+      }
+      .line {
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+        text-align: center;
+      }
+      .kısım2 {
+          margin: 0;
+      }
+      .location {
+        display: none;
+    }
+      .ikinci {
+          display: none;
+            
+      }
+      .üçüncü{
+          display: none;
+      }
+      .dördüncü {
+        display: inline-block;
+        text-align: center ;
+        box-shadow: 3px gray;
+        padding: 20px;
+        background-color: #fff;
+         box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+            margin: 0;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+}
+@media (min-width: 401px) and (max-width: 575px){/*tamamlandı*/ 
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    /* navbar */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        padding: 0 0rem;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand img{
+        width: 130px;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+        
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 1rem 2rem;
+        margin: 0 .5px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 2.5px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        /* background: url('../img/bonsai.jpg'); */
+        background-position: center;
+        /* background-color: #7A7A7A; */
+        height: 400px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        
+    
+    }
+    #showcase h2{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 35px;
+        color: antiquewhite;
+    }
+    button {
+       
+        font-size: 15px;
+        font-weight: bolder;
+        cursor: pointer;
+        padding: 3px 35px 3px 20px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 25px;
+        position: absolute;
+        border: 0;
+        
+    }
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height: 400px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 img {
+        display: inline-block;
+        margin: auto;
+        
+    }
+    .col-2 {
+        display: inline-block;
+        height: 710px; 
+        width: 100%;
+        font-size: large;
+        padding: 10px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    .row{
+        height: 1000px;
+        
+        
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        text-align: center;
+        
+    }
+    
+    .col-4 img{
+        width: 200px;
+        height: 300px;
+        margin-top: 30px;
+        
+    
+    }
+    #yazi{
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        
+    }
+    
+    .tanim {
+        margin-top: 50px;
+        width: 100%;
+        height: 1400px;
+        text-align: center;
+        display: block;
+       
+         background-color: rgba(131, 235, 235, 0.2);
+        
+    
+    }
+    
+    #text {
+        display: inline-block;
+        position: relative;
+        
+        margin-top: 20px;
+        padding: 10px;
+        width: 80%;
+        
+    }
+    .text 
+    #a1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    #a2{
+        padding-top: 30px;
+       
+    }
+    .col{
+        
+        display: inline-block;
+        padding: 10px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+        width: 80%;
+        text-align: center;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 600px;
+        margin-top: 2px;
+        
+        
+        
+    }
+    .kisiler {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        height: 200px;
+        vertical-align: bottom;
+    }
+    .kisiler{
+        
+        margin-top: 20px;
+    }
+    .ekip__text{
+        display: block;
+        
+        
+    }
+    .ekip__text{
+        text-align: left;
+        vertical-align: top;
+        font-weight: bolder;
+        font-size: 30px;
+        /* display: inline-block; */
+        height: 150px;
+        margin-left: 50px;
+        
+    }
+    .res {
+        display: inline-block;
+        width: 35%;
+        height: 200px;
+        padding-left: 150px;
+        padding: 10px;
+        font-size: medium;
+        vertical-align: top;
+        
+    
+    }
+    
+    .res img{
+        width: 110px;
+        height: 130px;
+        vertical-align: top;
+        
+    }
+    .son{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 10px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 280px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .kayar img{
+        width: 23%;
+        height: 100px;
+        padding: 3px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin-top: 30px;
+        transition: box-shadow .2s;
+        display: inline-block;
+    
+      }
+      #bou{
+          width: 45%;
+      }
+      
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height:150px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          font-size: 15px;
+          margin: 0;
+          margin-left: 3%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 5px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top:30px;
+        margin-left: 6%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 15px;
+        padding: 4px;
+        border-radius: 15px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    
+    .kapsam1 {
+        
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin: auto;
+       
+    }
+    .kapsam2{
+        
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+        
+        
+        
+    }
+    
+     
+      .lines {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+        text-align: center;
+        margin: auto;
+      }
+      #bsl {
+          font-size: 50px;
+          margin: 0;
+        padding-top: 30px;
+        
+      }
+      .line {
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+        text-align: center;
+      }
+      .kısım2 {
+          margin: 0;
+      }
+      .location {
+        display: none;
+    }
+      .ikinci {
+          display: none;
+            
+      }
+      .üçüncü{
+          display: none;
+      }
+      .dördüncü {
+        display: inline-block;
+        text-align: center ;
+        box-shadow: 3px gray;
+        padding: 20px;
+        background-color: #fff;
+         box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+            margin: 0;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+}
+@media (min-width: 576px) and (max-width: 767px){/*tamamlandı*/ 
+    .text-center {
+        text-align: center;
+    }
+    
+    /* navbar */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        padding: 0 3rem;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand img{
+        width: 130px;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+        
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 1rem 2rem;
+        margin: 0 .5px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 2.5px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        
+        background-position: center;
+        
+        height: 500px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+         position: relative; 
+        box-sizing: content-box; 
+        
+    
+    }
+    #showcase h2{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height:500px;
+        position: absolute;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        color: antiquewhite;
+    }
+    
+    button {
+       
+        font-size: 18px;
+        cursor: pointer;
+        padding: 3px 35px 3px 20px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 25px;
+        position: absolute;
+        border: 0;
+        
+    }
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height:500px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 img {
+        display: inline-block;
+        margin: auto;
+        
+    }
+    .col-2 {
+        display: inline-block;
+        height: 550px; 
+        width: 100%;
+        font-size: large;
+        padding: 40px;
+        line-height: 1.6;
+        text-align: center;
+        
+        
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        text-align: center;
+        
+    }
+    
+    .col-2 img{
+        width: 480px;
+        height: 480px;
+        
+    
+    }
+    .col-4 img{
+        width: 300px;
+        height: 480px;
+        padding-top: 40px;
+        
+    
+    }
+    #yazi{
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        
+    }
+    
+    .tanim {
+        margin-top: 50px;
+        width: 100%;
+        height: 1300px;
+        text-align: center;
+        display: block;
+       
+         background-color: rgba(131, 235, 235, 0.2);
+        
+    
+    }
+    
+    #text {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        width: 80%;
+        
+    }
+    .text 
+    #a1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    #a2{
+        padding-top: 30px;
+       
+    }
+    .col{
+        
+        display: inline-block;
+        padding: 10px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+        width: 80%;
+        text-align: center;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 790px;
+        margin-top: 130px;
+        
+        vertical-align: top;
+    }
+        
+    
+    .kisiler {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        height: 200px;
+        vertical-align: bottom;
+    }
+    .kisiler{
+        
+        margin-top: 20px;
+       
+    }
+    .ekip__text{
+        display: block;
+        
+        height: 200px
+    }
+    .ekip__text{
+        text-align: left;
+        vertical-align: top;
+        font-weight: bolder;
+        font-size: 50px;
+        
+    }
+    .res {
+        display: inline-block;
+        width: 35%;
+        padding-left: 150px;
+        padding: 10px;
+        font-size: medium;
+        vertical-align: top;
+    }
+    
+    
+    
+    .res img{
+        width: 160px;
+        height: 180px;
+        
+    }
+    .son{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 10px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 350px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .kayar img{
+        width: 23%;
+        height: 110px;
+        padding: 10px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin-top: 50px;
+        transition: box-shadow .2s;
+        display: inline-block;
+    
+      }
+      #bou{
+          width: 30%;
+      }
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height: 200px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          
+          margin: 0;
+          margin-left: 10%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 10px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top: 70px;
+        margin-left: 9%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 20px;
+        padding: 10;
+        border-radius: 5px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    
+    .kapsam1 {
+        
+        width: 100%;
+        display: block;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .kapsam2{
+        
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        height: 400px;
+        
+        
+        
+        
+    }
+    
+      .location {
+          display: none;
+      }
+      .lines {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+        text-align: center;
+        margin-left: 25%;
+      }
+      #bsl {
+          font-size: 50px;
+          margin: 0;
+        padding-top: 30px;
+        
+      }
+      .line {
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+        text-align: center;
+      }
+      .kısım2 {
+          margin: 0;
+          
+      }
+      .ikinci {
+          display: inline-block;
+        text-align: center ;
+        box-shadow: 3px gray;
+        padding: 20px;
+        background-color: #fff;
+         box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+            margin: 0;
+            
+      }
+      .üçüncü{
+          display: none;
+      }
+      .dördüncü{
+          display: none;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {/*tamamlandı*/
+    .text-center {
+        text-align: center;
+    }
+    
+    /* navbar */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        padding: 0 3rem;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand img{
+        width: 130px;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+        
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 1rem 2rem;
+        margin: 0 .5px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 2.5px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        /* background: url('../img/bonsai.jpg'); */
+        background-position: center;
+        /* background-color: #7A7A7A; */
+        height: 710px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        
+    
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 70px;
+        color: antiquewhite;
+    }
+    button {
+       
+        font-size: 18px;
+        cursor: pointer;
+        padding: 3px 35px 3px 20px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 25px;
+        position: absolute;
+        border: 0;
+        
+    }
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height: 710px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 {
+        display: inline-block;
+        height: 400px; 
+        width: 100%;
+        font-size: large;
+        padding: 40px;
+        line-height: 1.6;
+        text-align: center; 
+    }
+    .row {
+        text-align: center;
+        height: 1150px;
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        
+        margin: 0;
+        text-align: center;
+        padding-top: 30px;
+
+        
+    }
+    
+    .col-2 img{
+        width: 50%;
+        height: 500;
+        
+        margin: 0;
+        
+        
+    }
+    #yazi{
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        
+    }
+    
+    .tanim {
+        margin-top: 50px;
+        width: 100%;
+        height: 1220px;
+        text-align: center;
+        display: block;
+       
+         background-color: rgba(131, 235, 235, 0.2);
+        
+    
+    }
+    
+    #text {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        width: 80%;
+        
+    }
+    .text 
+    #a1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    #a2{
+        padding-top: 30px;
+       
+    }
+    .col{
+        
+        display: inline-block;
+        padding: 10px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+        width: 80%;
+        text-align: center;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 700px;
+        margin-top: 130px;
+        
+        
+        
+    }
+    .kisiler {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        height: 200px;
+        vertical-align: bottom;
+    }
+    .kisiler{
+        
+        margin-top: 20px;
+    }
+    .ekip__text{
+        display: block;
+        
+        height: 200px
+    }
+    .ekip__text{
+        text-align: left;
+        vertical-align: middle;
+        font-weight: bolder;
+        font-size: 50px;
+        
+    }
+    .res {
+        display: inline-block;
+        width: 35%;
+        padding-left: 150px;
+        padding: 10px;
+        font-size: medium;
+        
+    
+    }
+    
+    .res img{
+        width: 130px;
+        height: 150px;
+        
+    }
+    .son{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 10px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 400px;
+        width: 90%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .kayar img{
+        width: 22%;
+        height: 140px;
+        padding: 20px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin-top: 50px;
+        transition: box-shadow .2s;
+        display: inline-block;
+    
+      }
+      
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      #bou{
+          width: 35%;
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height: 200px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          
+          margin: 0;
+          margin-left: 10%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 10px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top: 70px;
+        margin-left: 9%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 20px;
+        padding: 10;
+        border-radius: 5px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    
+      .kapsam1 {
+        
+        width: 100%;
+        display: block;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .kapsam2{
+        
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+        
+        
+        
+    }
+    
+      .location {
+          display: none;
+      }
+      .lines {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+        text-align: center;
+        margin-left: 30%;
+      }
+      #bsl {
+          font-size: 50px;
+          margin: 0;
+        padding-top: 30px;
+        
+      }
+      .line {
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+        text-align: center;
+      }
+      .kısım2 {
+          margin: 0;
+      }
+      .ikinci {
+        display: inline-block;
+        text-align: center ;
+        box-shadow: 3px gray;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+        margin: 0;
+      }
+      .üçüncü{
+          display: none;
+      }
+      .dördüncü{
+          display: none;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { /*tamamlandı */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        padding: 0 3rem;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 1rem 2rem;
+        margin: 0 .5px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 2.5px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        /* background: url('../img/bonsai.jpg'); */
+        background-position: center;
+        /* background-color: #7A7A7A; */
+        height: 710px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        
+    
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        color: antiquewhite;
+    }
+    button {
+       
+        font-size: 18px;
+        cursor: pointer;
+        padding: 3px 35px 3px 20px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 25px;
+        position: absolute;
+        border: 0;
+        
+    }
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height: 710px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 {
+        display: inline-block;
+        height: 530px; 
+        width: 40%;
+        font-size: large;
+        padding: 40px;
+        line-height: 1.6;
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        text-align: right;
+        display: inline-block;
+        padding-top: 30px;
+        margin-left: 2%;
+    }
+    
+    .col-2 img{
+        width: 360px;
+        height: 480px;
+    
+    }
+    #yazi{
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        
+        
+    }
+    
+    .tanim {
+        margin-top: 80px;
+        width: 100%;
+        height: 700px;
+        text-align: center;
+        display: inline-block;
+       
+         background-color: rgba(131, 235, 235, 0.2);
+        
+    
+    }
+    
+    #text {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        margin-top: 70px;
+        width: 70%;
+    }
+    .text 
+    #a1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    #a2{
+        padding-top: 20px;
+       
+    }
+    .col{
+        width: 30%;
+        display: inline-block;
+        padding: 16px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 610px;
+        margin-top: 130px;
+        vertical-align: top;
+        
+        
+    }
+    .kisiler {
+        display: inline-block;
+        width: 48%;
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 530px;
+    }
+    
+    .ekip__text{
+        display: inline-block;
+        width: 30%;
+        height: 400px;
+        text-align: left;
+        vertical-align: top;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-left: 100px;
+        margin-top: 80px;
+    }
+    
+    
+    .res {
+        display: inline-block;
+        width: 49%;
+        padding-left: 150px;
+        padding: 0px;
+        font-size: medium;
+        font-weight: bolder;
+        
+    
+    }
+    
+    .res img{
+        width: 190px;
+        height: 210px;
+        text-align: center;
+        
+    }
+    .res h3{
+        width: 245px;
+        font-size: 20px;
+    }
+    .sag{
+        padding-left: 40px;
+    }
+    .son{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 50px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 250px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .kayar img{
+        width: 15%;
+        height: 150px;
+        padding: 20px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin-top: 50px;
+        transition: box-shadow .2s;
+      }
+      #bou{
+          width: 28%;
+      }
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height: 170px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          
+          margin: 0;
+          margin-left: 6%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 10px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top: 40px;
+        margin-left: 5%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 20px;
+        padding: 10;
+        border-radius: 5px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    .kısım2{
+        width: 100%;
+        height: 60%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .kapsam1 {
+        width: 45%;
+        height: 60%;
+        text-align: left;
+        vertical-align: top;
+        padding-left: 200px;
+        margin: 0;
+        padding: 0;
+    }
+    .kapsam2{
+        width: 40%;
+        height: 60%;
+        display: inline-block;
+        margin: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+      .location {
+          display: none;
+      }
+      .ikinci{
+        box-shadow: 50px gray;
+        padding: 40px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 70%;
+        text-align: right;
+        display: inline-block;
+        margin-right: 9%;
+      }
+      .üçüncü{
+          display: none;
+      }
+      .dördüncü{
+        display: none;
+    }
+      .lines {
+        text-align: left;
+        display:  inline-block;
+      
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 10%;
+      }
+      #bsl {
+          font-size: 50px;
+      }
+      .line {
+        text-align: left;
+        padding-top: 28px;
+        padding-bottom: 25px;
+      }
+      #cizgi {
+          font-size: larger;
+          margin-top: 0;
+          padding-top: 0;
+          border-top: 0;
+      }
+      .kısım2 {
+          margin-top: 150px;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 22px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+ }
+
+@media (min-width: 1200px) and (max-width: 1399px) { 
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        padding: 0 3rem;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 1rem 2rem;
+        margin: 0 .5px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 2.5px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        /* background: url('../img/bonsai.jpg'); */
+        background-position: center;
+        /* background-color: #7A7A7A; */
+        height: 710px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        
+    
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 60px;
+        color: antiquewhite;
+    }
+    button {
+       
+        font-size: 18px;
+        cursor: pointer;
+        padding: 3px 35px 3px 20px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 25px;
+        position: absolute;
+        border: 0;
+        
+    }
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height: 710px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 {
+        display: inline-block;
+        height: 530px; 
+        width: 40%;
+        font-size: large;
+        padding: 40px;
+        line-height: 1.6;
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        text-align: right;
+        display: inline-block;
+        padding-top: 20px;
+        margin-left: 3%;
+    }
+    
+    .col-2 img{
+        width: 360px;
+        height: 480px;
+    
+    }
+    #yazi{
+        display: inline-block;
+        width: 55%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        font-size: 20px;
+        
+    }
+    
+    .tanim {
+        margin-top: 80px;
+        width: 100%;
+        height: 700px;
+        text-align: center;
+        display: inline-block;
+       
+         background-color: rgba(131, 235, 235, 0.2);
+        
+    
+    }
+    
+    #text {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        margin-top: 70px;
+        width: 35%;
+    }
+    .text 
+    #a1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    #a2{
+        padding-top: 20px;
+       
+    }
+    .col{
+        width: 25%;
+        display: inline-block;
+        padding: 16px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 1600x;
+        margin-top: 130px;
+        vertical-align: top;
+        
+        
+    }
+    .kisiler {
+        display: inline-block;
+        width: 48%;
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 530px;
+    }
+    
+    .ekip__text{
+        display: inline-block;
+        width: 40%;
+        height: 400px;
+        text-align: left;
+        vertical-align: top;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-left: 100px;
+        margin-top: 80px;
+    }
+    
+    
+    .res {
+        display: inline-block;
+        width: 40%;
+        padding-left: 150px;
+        padding: 10px;
+        vertical-align: top;
+    }
+    .res h3{
+        font-weight: bolder;
+    }
+    
+    .res img{
+        width: 190px;
+        height: 210px;
+        
+    }
+    .son{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 50px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 300px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .kayar img{
+        width: 15%;
+        height: 150px;
+        padding: 20px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        
+        transition: box-shadow .2s;
+        margin: 50px 5px 5px 5px;
+      }
+      #bou{
+          width: 22%;
+      }
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height: 250px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          
+          margin: 0;
+          margin-left: 15%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 10px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top: 70px;
+        margin-left: 14%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 20px;
+        padding: 10;
+        border-radius: 5px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    .kısım2{
+        width: 100%;
+        height: 60%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .kapsam1 {
+        width: 40%;
+        height: 60%;
+        text-align: left;
+        vertical-align: top;
+        padding-left: 200px;
+        margin: 0;
+        padding: 0;
+    }
+    .kapsam2{
+        width: 40%;
+        height: 60%;
+        display: inline-block;
+        margin: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+      .location {
+          display: none;
+      }
+       .ikinci{
+        display: none;
+       }
+      .üçüncü {
+        box-shadow: 50px gray;
+        padding: 40px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 70%;
+        text-align: right;
+        display: inline-block;
+        
+      }
+      .dördüncü{
+          display: none;
+      }
+      .lines {
+        text-align: left;
+        display:  inline-block;
+      
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 15%;
+      }
+      #bsl {
+          font-size: 50px;
+      }
+      .line {
+        text-align: left;
+        padding-top: 28px;
+        padding-bottom: 25px;
+      }
+      #cizgi {
+          font-size: larger;
+          margin-top: 0;
+          padding-top: 0;
+          border-top: 0;
+      }
+      .kısım2 {
+          margin-top: 150px;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 22px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+ }
+
+@media (min-width: 1400px) and (max-width: 1600px){ /*bidaha dönmek yok*/
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        padding: 0 3rem;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 1rem 2rem;
+        margin: 0 .5px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 2.5px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        /* background: url('../img/bonsai.jpg'); */
+        background-position: center;
+        /* background-color: #7A7A7A; */
+        height: 710px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+    }
+    #showcase h2{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height:710px;
+        position: absolute;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 70px;
+        color: antiquewhite;
+    }
+    button {
+       
+        font-size: 18px;
+        cursor: pointer;
+        padding: 3px 35px 3px 20px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 25px;
+        position: absolute;
+        border: 0;
+        
+    }
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height: 710px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 {
+        display: inline-block;
+        height: 530px; 
+        width: 40%;
+        font-size: large;
+        padding: 40px;
+        line-height: 1.6;
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        text-align: right;
+        display: inline-block;
+        padding-top: 20px;
+        margin-left: 5%;
+        
+    }
+    
+    .col-2 img{
+        width: 360px;
+        height: 480px;
+        
+    
+    }
+    #yazi{
+        display: inline-block;
+        width: 59%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        font-size: 23px;
+        
+    }
+    
+    .tanim {
+        margin-top: 80px;
+        width: 100%;
+        height: 680px;
+        text-align: center;
+        display: inline-block;
+       
+         background-color: rgba(131, 235, 235, 0.2);
+        
+    
+    }
+    .text{
+        font-size:100px;
+    }
+    #text {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        margin-top: 70px;
+        width: 100%;
+        font-size: 23px;
+        width: 40%;
+    }
+    .text
+    #a1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+        
+    }
+    .col{
+        width: 27%;
+        display: inline-block;
+        padding: 16px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+        font-size: 19px;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 600px;
+        margin-top: 130px;
+        vertical-align: top;
+        
+        
+    }
+    .kisiler {
+        display: inline-block;
+        width: 48%;
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 530px;
+    }
+    
+    .ekip__text{
+        display: inline-block;
+        width: 40%;
+        height: 400px;
+        text-align: left;
+        vertical-align: top;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-left: 100px;
+        margin-top: 80px;
+    }
+    
+    
+    .res {
+        display: inline-block;
+        width: 40%;
+        padding-left: 150px;
+        padding: 10px;
+        font-size: medium;
+        font-weight: bolder;
+        
+    
+    }
+    
+    
+    .res img{
+        width: 180px;
+        height: 200px;
+        
+    }
+    .son{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 50px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 250px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .kayar img{
+        width: 12%;
+        height: 150px;
+        padding: 20px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin: 50px 10px 5px 10px;
+        transition: box-shadow .2s;
+      }
+      #bou{
+          width: 22%;
+      }
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height: 220px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          
+          margin: 0;
+          margin-left: 15%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 10px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top: 70px;
+        margin-left: 14%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 20px;
+        padding: 10;
+        border-radius: 5px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    
+      .kısım2{
+        width: 100%;
+        height: 60%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .kapsam1 {
+        width: 40%;
+        height: 60%;
+        text-align: left;
+        vertical-align: top;
+        padding-left: 200px;
+        margin: 0;
+        padding: 0;
+    }
+    .kapsam2{
+        width: 40%;
+        height: 60%;
+        display: inline-block;
+        margin: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+      .location {
+        box-shadow: 50px gray;
+        padding: 40px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 70%;
+        text-align: right;
+        display: inline-block;
+      }
+       .ikinci{
+        display: none;
+       }
+      .üçüncü {
+        display: none;
+        
+      }
+      .dördüncü{
+          display: none;
+      }
+      .lines {
+        text-align: left;
+        display:  inline-block;
+      
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 15%;
+      }
+      #bsl {
+          font-size: 50px;
+      }
+      .line {
+        text-align: left;
+        padding-top: 28px;
+        padding-bottom: 25px;
+      }
+      #cizgi {
+          font-size: larger;
+          margin-top: 0;
+          padding-top: 0;
+          border-top: 0;
+      }
+      .kısım2 {
+          margin-top: 150px;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 25px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+ }
+
+@media (min-width: 1601px){ /*bidaha dönmek yok*/
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        padding: 0 3rem;
+        border-bottom: 1px solid #7A7A7A;
+    }
+    .brand{
+        transition: box-shadow .2s;
+        border-radius: 15px;
+    }
+    .brand:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    }
+    
+    .navbar a:visited{
+        color: black;
+    }
+    .navbar a {
+      
+        padding: 1rem 2rem;
+        margin: 0 .5px;
+        
+    }
+    
+    .navbar ul:hover {
+        border-bottom: 2.5px solid #23A455;
+    }
+    
+    .navbar ul {
+        display: flex;
+    }
+    
+    
+    a:link {
+        color: black;
+    }
+    #showcase {
+        /* background: url('../img/bonsai.jpg'); */
+        background-position: center;
+        /* background-color: #7A7A7A; */
+        height: 800px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+    }
+    #showcase h2{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height:800px;
+        position: absolute;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+    }
+    #showcase h1{
+        margin: 0;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-size: 70px;
+        color: antiquewhite;
+    }
+    button {
+       
+        font-size: 18px;
+        cursor: pointer;
+        padding: 3px 35px 3px 20px;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        background-color: #23A455;
+        border-radius: 25px;
+        position: absolute;
+        border: 0;
+        
+    }
+    button:hover {
+        background-color: #015e24;
+        transition: background-color 300ms linear;
+    }
+    .mySlides {display:none;} /*bunlar kayar resim üçü*/
+    .mySlides{
+        
+        height: 800px;
+    }
+    .w3-content {
+        height: 30%;
+        width: 100%;
+        max-width: none;
+    }
+    .col-2 {
+        display: inline-block;
+        height: 530px; 
+        width: 40%;
+        font-size: large;
+        padding: 40px;
+        line-height: 1.6;
+    }
+    .row h2{
+        color: #7A7A7A;
+        
+        font-weight: border;
+    }
+    #hak {
+        text-align: right;
+        display: inline-block;
+        padding-top: 20px;
+        margin-left: 5%;
+        
+    }
+    
+    .col-2 img{
+        width: 360px;
+        height: 480px;
+        
+    
+    }
+    #yazi{
+        display: inline-block;
+        width: 59%;
+        vertical-align: top;
+        padding-left: 10px;
+        font-style: normal;
+        font-size: 23px;
+        
+    }
+    
+    .tanim {
+        margin-top: 80px;
+        width: 100%;
+        height: 680px;
+        text-align: center;
+        display: inline-block;
+        background-color: rgba(131, 235, 235, 0.1);
+    }
+    .text{
+        font-size:100px;
+    }
+    #text {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        margin-top: 70px;
+        width: 100%;
+        font-size: 23px;
+        width: 40%;
+    }
+    .text
+    #a1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+        
+    }
+    .col{
+        width: 27%;
+        display: inline-block;
+        padding: 16px;
+        margin: 8px;
+        margin-top: 30px;
+        vertical-align: text-top;
+        font-size: 19px;
+    }
+    .ekip{
+        width: 100%;
+        margin: 0;
+        height: 640px;
+        margin-top: 130px;
+        vertical-align: top;
+        
+        
+    }
+    .kisiler {
+        display: inline-block;
+        width: 48%;
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 530px;
+    }
+    
+    .ekip__text{
+        display: inline-block;
+        width: 40%;
+        height: 400px;
+        text-align: left;
+        vertical-align: top;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-left: 100px;
+        margin-top: 80px;
+    }
+    
+    
+    .res {
+        display: inline-block;
+        width: 40%;
+        padding-left: 150px;
+        padding: 10px;
+        font-size: large;
+        font-weight: bolder;
+        
+    
+    }
+    
+    
+    .res img{
+        width: 180px;
+        height: 200px;
+        
+    }
+    .son{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 50px;
+    }
+    
+    .kayar {
+        
+        background-position: center;
+        
+        height: 250px;
+        width: 100%;
+        padding: 0px;
+        background-repeat: no-repeat;
+        position: relative;
+        box-sizing: content-box;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .kayar img{
+        width: 12%;
+        height: 150px;
+        padding: 20px;
+        vertical-align: middle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin: 50px 10px 5px 10px;
+        transition: box-shadow .2s;
+      }
+      #bou{
+          width: 22%;
+      }
+      .kayar img:hover {
+          /* opacity: 50%; */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    
+      }
+      
+      
+      .foter {
+          width: 100%;
+          height: 220px;
+          
+          background-color: #302e2e;
+      }
+    
+      .hak {
+          
+          
+          margin: 0;
+          margin-left: 15%;
+          color: gray;
+    
+      }
+      .social {
+        padding: 10px;
+        display: inline-block;
+        margin: 0;
+        text-decoration: none;
+        margin-top: 70px;
+        margin-left: 14%;
+        
+    
+        
+        
+      }
+      .social a{
+        font-size: 20px;
+        padding: 10;
+        border-radius: 5px;
+         
+      }
+      .social a:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+      }
+      
+    
+    
+      .kısım2{
+        width: 100%;
+        height: 60%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .kapsam1 {
+        width: 40%;
+        height: 60%;
+        text-align: left;
+        vertical-align: top;
+        padding-left: 200px;
+        margin: 0;
+        padding: 0;
+    }
+    .kapsam2{
+        width: 40%;
+        height: 60%;
+        display: inline-block;
+        margin: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+      .location {
+        box-shadow: 50px gray;
+        padding: 40px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 70%;
+        text-align: right;
+        display: inline-block;
+      }
+       .ikinci{
+        display: none;
+       }
+      .üçüncü {
+        display: none;
+        
+      }
+      .dördüncü{
+          display: none;
+      }
+      .lines {
+        text-align: left;
+        display:  inline-block;
+      
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 15%;
+      }
+      #bsl {
+          font-size: 50px;
+      }
+      .line {
+        text-align: left;
+        padding-top: 28px;
+        padding-bottom: 25px;
+      }
+      #cizgi {
+          font-size: larger;
+          margin-top: 0;
+          padding-top: 0;
+          border-top: 0;
+      }
+      .kısım2 {
+          margin-top: 150px;
+      }
+     .fa {
+        padding: 10px;
+        font-size: 25px;
+        width: 45px;
+        margin: 0;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+      }
+      /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+ }
+ 
